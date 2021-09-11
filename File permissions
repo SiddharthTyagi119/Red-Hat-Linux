@@ -1,0 +1,27 @@
+ 1.  To change the user owner of a file-  chown username:groupname file.txt
+
+ 2.    To change the group of any file-  chgrp groupname file.txt
+
+ 3.    To set user permissions on a file-  chmod u+rwx file.txt
+
+ 4.     To set group permissions on a file-  chmod g+rwx file.txt
+
+ 5.     To set others permissions on a file-   chmod o+rwx file.txt
+
+ 6.    To overwrite the permissions-  chmod u=r file.txt
+                                      chmod g=rw file.txt
+                                      chmod o=rw file.txt
+
+  7.    To set combine permission-  chmod ugo=/+rwx file.txt
+
+  8.    To remove permissions-   chmod uo-rw file.txt
+
+                                                 Another way to set permissions
+
+  read- 4
+  write-2
+  execute- 1
+  
+  example to give read permission to user,group and others- chmod 444 file.txt
+
+  9.  To set all permissions for user, group and others-  chmod 641 file.txt 
