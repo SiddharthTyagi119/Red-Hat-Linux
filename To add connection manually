@@ -1,0 +1,17 @@
+1.To add connection- nmcli con add type ethernet con-name hello ifname ens33 192.168.0.96/24 gw4 192.168.0.98 
+
+2.To check configurations-  cat ifcfg-hello
+
+3.To activate connection-  nmcli connection up <con-name>
+
+4  To view all connection-  nmcli connection show
+
+5   To delete connection-  nmcli connection delete <con-name>
+
+6   To reload connection-   nmcli connection reload
+
+7   To view specific connection-  nmcli connection show <co-name>
+
+8   To down the connection-  nmcli con down <static>
+
+9   To see general status-  nmcli general status
