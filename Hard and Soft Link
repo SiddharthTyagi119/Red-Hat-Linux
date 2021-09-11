@@ -1,0 +1,7 @@
+Soft Link-   ln -s /root/sid/file1.txt /root/A/dir/sym link
+
+Hard Link-  ln /root/file1.txt /root/A/dir/ sym link
+
+
+Remove link-  rm link name
+                         unlink link name 
