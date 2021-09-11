@@ -1,2 +1,2 @@
-	1. To see n specific lines (TOP)-     head -n 5 file.txt
+  1. To see n specific lines (TOP)-     head -n 5 file.txt
   2. To see n specific lines (Bottom)-   tail -n 5 file.txt
