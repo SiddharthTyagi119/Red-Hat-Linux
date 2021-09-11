@@ -1,0 +1,43 @@
+ 1.    To add group-   groupadd groupname
+	
+ 2.    To delete group-  groupdel groupname
+
+ 3.    List down all the groups-  cat /etc/group
+
+ 4.    Set specific id to a group-   groupmod -g 500 groupname
+
+ 5.    To add an existing user to a group-  usermod -a -G groupname username
+
+ 6.    Add user-  useradd username
+
+ 7.    List down all the users-  cat /etc/passwd
+
+ 8.    To delete user with its directory-  userdel -r username
+
+ 9.    To set user password-   passwd username
+
+10.    To delete user forcefully-   userdel -f username
+
+11.    LoCK user-  usermod --lock  username
+
+12.    Unlock user-  usermod --unlock username
+
+13.    Set specific id to a user-  useradd -u 500 username
+
+14.    Add user w/o home directory-  useradd -M username
+
+15.    Change the default location of user home dir-  usermod -d /tmp username
+
+16.    To see short status of a password-  passwd -s username
+
+20.    Set the minimum number of days between password changes to min days-   chage -m 40 username
+
+21.    Set the maximum number of days during which a password  is valid-  chage -M 20 username
+
+22.    Set the number of days of warning before a password change is required-   chage -W 14 username
+
+23.    Account Expire-   chage  -E 2018-09-28 username
+
+24.   Change the owner of a file-  chown linuxize /home/file1
+
+25.   Change groupname of a file-  chgrp hello /home/dir/dir2 
