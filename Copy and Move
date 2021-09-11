@@ -1,0 +1,13 @@
+	1. Copy a file- cp file1.txt file2.txt
+
+	2. To get confirmation before copying a file-  cp -I file.txt file2.txt
+
+	3. Copy a file to a directory-  cp file.txt  /directory name
+
+	4. Copy same multiple files- cp file{1..10}.txt /dir
+
+	5. Copy multiple files-  cp file1.txt file2.txt /dir
+
+	6. Move a file- mv file.txt /dir
+
+  7. Move multiple files- mv file1.txt file2.txt /dir
