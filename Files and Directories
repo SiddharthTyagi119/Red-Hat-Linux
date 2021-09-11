@@ -1,0 +1,31 @@
+	1. Create file- touch file.txt
+
+	2. Create directory- mkdir hello
+
+	3. Create multiple files- touch file{1..10}.txt
+
+	4. Create parent directory- mkdir -p /root/tyagi/hello/world
+
+	5. Create directory at another location- mkdir /tmp/hello
+
+	6. Create multiple directories-  mkdir dir1 dir2 dir3
+
+	7. Set permission when creating a directory-  mkdir -m 700 dir1
+
+	8. Delete empty file-  rm file.txt
+
+	9. Delete non empty file-  rm -rf file.txt
+
+	10. Delete empty directory-  rmdir dir1
+
+	11. Delete non empty directory-  rm -r dir
+
+	12. Create multiple files-  touch file1.txt file2.txt file3.txt
+
+	13. Create a file with redirection operation-  > file.txt
+
+	14. Create a file with cat command-  cat > file.txt
+
+	15. Create a file with echo command-  echo "some lines" > file.txt
+
+  16. To confirm before deleting any file- rm -I filename.txt
