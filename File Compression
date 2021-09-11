@@ -1,0 +1,54 @@
+                                                                   GZIP 
+
+   
+	1. To compress any file-  gzip filename
+	
+ 2.    To decompress any file-  gunzip filename.txt.gz
+                     Dir-       gzip -d filename.txt.gz
+
+ 3.    To see the stats of any file-  gzip -l filename.txt.gz
+
+ 4.    To compress any file with a compression rate-  gzip -9 filename.txt
+
+ 5.     To see the content of file while decompress-  gunzip -c filename.gz
+
+ 6.     To see the content of any file-  zcat filename.gz
+
+
+                                                                  BZIP2
+
+	7.   To compress any file-  bzip2 filename.txt
+
+ 8.     To decompress any file-  bunzip2 filename.txt.bz2
+
+ 9.     To see the data of any file-  bzcat filename.txt.bz2
+
+ 10.   Recover data from damaged file-  bzip2recover filename.txt.bz2
+
+                                                          ARCHIVING AND BACKUP
+
+  11.   To archieve-  tar cvf dir.tar dir
+
+  12.   To see the content of archieve dir-   tar tvf dir.tar
+
+  13.   To unbundle the archieve directory-  tar xvf dir.tar
+
+  14.   To compress and bundle any folder-  tar cvfz dir.tgz dir1
+                                            tar cvfj dir.tar.bz2 dir1
+
+  15.   To remove compression and bundling of any folder-   tar -xvf dir.tar.bz2
+
+
+                                                         ZIP  AND  UNZIP
+
+  16.  To install zip and unzip-  yum install zip and unzip
+
+  17.   To zip any directory-  zip -r abc directoryname/
+
+  18.   To see the content of any directory-  unzip -l abc.zip
+
+  19.  To unzip any file at any location-  unzip abc.zip -d dir2/
+
+  20.  To delete any file from any zipped folder-  zip -d abc.zip *.mp3   
+
+  21.  To update any zipped folder-  zip -u abc.zip dir/*.mp3
