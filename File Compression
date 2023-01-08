@@ -1,10 +1,9 @@
                                                                    GZIP 
 
-   
-	1. To compress any file-  gzip filename
+ 1. To compress any file-  gzip filename
 	
  2.    To decompress any file-  gunzip filename.txt.gz
-                     Dir-       gzip -d filename.txt.gz
+                         Dir-   gzip -d filename.txt.gz
 
  3.    To see the stats of any file-  gzip -l filename.txt.gz
 
@@ -17,7 +16,7 @@
 
                                                                   BZIP2
 
-	7.   To compress any file-  bzip2 filename.txt
+ 7.   To compress any file-  bzip2 filename.txt
 
  8.     To decompress any file-  bunzip2 filename.txt.bz2
 
